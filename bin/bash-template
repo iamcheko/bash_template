@@ -5,7 +5,7 @@
 #
 #------------------------------------------------------------------------------
 #
-#   Beschreibung    : This script is a template for born again shell scripts.
+#   Description     : This script is a template for born again shell scripts.
 #                     It is intended to check all defined variables between
 #                     CMD_START and CMD_END if the commands are existing and
 #                     within the script it checks also that they really are
@@ -379,6 +379,7 @@ fi
 # Rotate logfiles or exit if there is a problem
 logRotate $LOG $ROTATE_LOGS || exit 1
 
-# Append youre code here
-echo "Hallo Welt :D"
+# Append youre code here and create your functions as needed above the
+# Main header
+echo "Hello world :D"
 
